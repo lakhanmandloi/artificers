@@ -1,0 +1,31 @@
+@mixin display-n($display){
+display:$display;
+}
+
+@mixin display-i($display){
+display:$display
+}
+
+@mixin display-i-b($display){
+display:$display;
+}
+
+@mixin display-b($display){
+display:$display;
+}
+
+@mixin display-t($display){
+display:$display;
+}
+
+@mixin display-tc($display){
+display:$display;
+}
+
+@mixin display-f($display){
+display:$display;
+}
+
+@mixin display-if($display){
+display:$display;
+}

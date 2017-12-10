@@ -1,0 +1,9 @@
+.d-none{@include display-n(none !important);}
+.d-inline{@include display-i(inline !important);}
+.d-inline-block{@include display-i-b(inline-block !important);}
+.d-block{@include display-b(block !important);}
+.d-table{@include display-t(table !important);}
+.d-table-cell{@include display-tc(table-cell !important);}
+.d-flex{@include display-f(flex !important);}
+.d-inline-flex{@include display-if(inline-flex !important);}
+

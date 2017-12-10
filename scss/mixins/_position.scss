@@ -1,0 +1,22 @@
+@mixin fixed-top($fixed,$top,$right,$left,$z-index){
+position:$fixed;
+top:$top;
+right:$right;
+left:$left;
+z-index:$z-index;
+}
+
+@mixin sticky-top($-webkit-sticky,$sticky,$top,$z-index){
+position:$-webkit-sticky;
+position:$sticky;
+top:$top;
+z-index:$z-index;
+}
+
+@mixin fixed-bottom($fixed,$bottom,$right,$left,$z-index){
+position:$fixed;
+bottom:$bottom;
+right:$right;
+left:$left;
+z-index:$z-index;
+}

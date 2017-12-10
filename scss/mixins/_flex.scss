@@ -1,0 +1,13 @@
+@mixin flex($flex1,$flex2,$flex3,$flex4){
+display:$flex1;
+display:$flex2;
+display:$flex3;
+display:$flex4;
+}
+
+@mixin flex-inline($flex1,$flex2,$flex3,$flex4){
+display:$flex1;
+display:$flex2;
+display:$flex3;
+display:$flex4;
+}

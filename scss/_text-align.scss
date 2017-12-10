@@ -1,0 +1,30 @@
+.text-justify{@include text-align(justify !important);}
+.text-nwrap{@include text-wrap(nowrap !important);}
+.text-truncate{@include text-truncate(hidden,ellipsis,nowrap);}
+.text-left{@include text-align(left !important);}
+.text-center{@include text-align(center !important);}
+.text-right{@include text-align(right !important);}
+
+@media (min-width: 576px){
+.text-sm-left{@include text-align(left !important);}
+.text-sm-right{@include text-align(right !important);}
+.text-sm-center{@include text-align(center !important);}
+}
+
+@media (min-width:768px){
+.text-md-left{@include text-align(left !important);}
+.text-md-right{@include text-align(right !important);}
+.text-md-center{@include text-align(center !important);}
+}
+
+@media (min-width:992px){
+.text-lg-left{@include text-align(left !important);}
+.text-lg-right{@include text-align(right !important);}
+.text-lg-center{@include text-align(center !important);}
+}
+
+@media (min-width:1200px){
+.text-xl-left{@include text-align(left !important);}
+.text-xl-right{@include text-align(right !important);}
+.text-xl-center{@include text-align(center !important);}
+}

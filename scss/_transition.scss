@@ -1,0 +1,10 @@
+.time-1s{@include transition(1s);}
+.time-2s{@include transition(2s);}
+.time-3s{@include transition(3s);}
+.time-4s{@include transition(4s);}
+.time-5s{@include transition(5s);}
+.ease1s{@include transition(1s ease-in-out);}
+.ease2s{@include transition(2s ease-in-out);}
+.ease3s{@include transition(3s ease-in-out);}
+.ease4s{@include transition(4s ease-in-out);}
+.ease5s{@include transition(5s ease-in-out);}

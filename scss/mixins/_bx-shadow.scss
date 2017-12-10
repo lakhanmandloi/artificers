@@ -1,0 +1,11 @@
+@mixin box-shadow($box-shadow){
+box-shadow:$box-shadow;
+-moz-box-shadow:$box-shadow;
+-webkit-box-shadow:$box-shadow;
+}
+
+@mixin box-shadow2($box-shadow,$bx-shadow){
+box-shadow:$box-shadow,$bx-shadow ;
+-moz-box-shadow:$box-shadow,$bx-shadow;
+-webkit-box-shadow:$box-shadow,$bx-shadow;
+}

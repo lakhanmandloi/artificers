@@ -1,0 +1,1175 @@
+						<!DOCTYPE html>
+						<html>
+						   <head>
+							  <title>index</title>
+							  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+							  <link rel="stylesheet" type="text/css" href="css/artficier.min.css">
+							  <link rel="stylesheet" type="text/css" href="css/style.css">
+						   </head>
+						   <style>
+						   </style>
+						   <body>
+							  <div class="container-fluid pl-0">
+								 <div class="row">
+									<!--vertical navbar-->	
+									<div class="col-sm-3">
+									   <div class="tab">
+										  <button class="tablinks" onclick="showContent(event, 'margin')" id="defaultOpen">Margin</button>
+										  <button class="tablinks" onclick="showContent(event, 'padding')">Padding</button>
+										  <button class="tablinks" onclick="showContent(event, 'bg-color')">Background color</button>
+										  <button class="tablinks" onclick="showContent(event, 'txt-align')">Text align</button>
+										  <button class="tablinks" onclick="showContent(event, 'box-shadow')">Box-shadow</button>
+										  <button class="tablinks" onclick="showContent(event, 'text-shadow')">Text shadow</button>
+										  <button class="tablinks" onclick="showContent(event, 'bg-size')">Background size</button>
+										  <button class="tablinks" onclick="showContent(event, 'transiton')">Transition</button>
+										  <button class="tablinks" onclick="showContent(event, 'transform')">2D Transform </button>
+										  <button class="tablinks" onclick="showContent(event, 'txt-align')">Text align</button>
+										  <button class="tablinks" onclick="showContent(event, 'font-weight')">Font weight</button>
+										  <button class="tablinks" onclick="showContent(event, 'txt-wrap')">Text wrap</button>
+										  <button class="tablinks" onclick="showContent(event, 'v-align')">Vertcal align</button>
+										  <button class="tablinks" onclick="showContent(event, 'brdr-none')">Border</button>
+										  <button class="tablinks" onclick="showContent(event, 'border-radius')">Border radius</button>
+										  <button class="tablinks" onclick="showContent(event, 'disp')">Display</button>
+										  <button class="tablinks" onclick="showContent(event, 'hidden')">Hidden utilities</button>
+										  <button class="tablinks" onclick="showContent(event, 'float')">Float</button>
+										  <button class="tablinks" onclick="showContent(event, 'extend-grid')">Extended grid</button>
+										  <button class="tablinks" onclick="showContent(event, 'flex')">Flex box</button>
+										  <button class="tablinks" onclick="showContent(event, 'no-gutter')">No gutters</button>
+										  
+									   </div>
+									</div>
+									<!--content-->
+									<div class="col-sm-9 col-sm-pull-1">
+									   <!--margin-->
+									   <div id="margin" class="tabcontent">
+										  <div class="row">
+											 <h1>Margin</h1>
+											 <div class="col-sm-4">
+												<div class="flex-box  mt-5">
+												   <p class="p-10">Margin from top is 5px</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="flex-box mt-20">
+												   <p class="p-10">Margin from top is 20px</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="flex-box mt-30">
+												   <p class="p-10">Margin from top is 30px</p>
+												</div>
+											 </div>
+										  </div>
+										  <h2 class="pt-10"><strong> all margin classes</strong></h2>
+										  <p>class <code>.mt</code>for margin top, class range are from <code>.mt-0</code> to <code>.mt-30</code>.</p>
+										  <p>class <code>.mr</code>for margin right, and class range from <code>.mr-0</code> to <code>.mr-30</code>.</p>
+										  <p>class <code>.mb</code> for margin bottom,and class range from <code>.mb-0</code> to <code>.mb-30</code>.</p>
+										  <p>class <code>.ml</code> for margin left,and class range from <code>.ml-0</code> to <code>.ml-30</code>.</p>
+										  <p>class <code>.mx</code> for margin left and right and class range is from <code>.mx-5</code> to <code>.mx-30</code>.</p>
+										  <p>class <code>.my</code> for margin top and bottom and class range is from <code>.my-5</code> to <code>.my-30</code>.</p>
+										  <p>class <code>.m</code> for margin from all sides and class range is from <code>.m-0</code> to <code>.m-30</code>.</p>
+										  <p>Class <code>.m-auto</code> for margin auto and class range is from <code>.m-auto</code>,<code>.mt-auto</code>,<code>.mr-auto</code>,<code>.mb-auto</code>,<code>.ml-auto</code>,<code>.mx-auto</code> and <code>.my-auto</code>.</p>
+										  <br>
+									   </div>
+									   <!--/margin-->
+									   <!--padding-->
+									   <div id="padding" class="tabcontent">
+										  <div class="row">
+											 <h1>Padding</h1>
+											 <div class="col-sm-4">
+												<div class="flex-box p-5">	
+												   <p>Padding is 5px</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="flex-box p-20">	
+												   <p>padding is 20px</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="flex-box p-30">	
+												   <p>padding is 30px</p>
+												</div>
+											 </div>
+											 <h2 class="text-center"></h2>
+											 <h2 class="p-10"><strong>Related padding classes</strong></h2>
+											 <p>class <code>.p</code> for apply Padding for all sides and class range from <code>.p-0</code> to <code>.p-40</code></p>
+											 <p>class <code>.pt</code> for apply padding for top,and class range from <code>.pt-0</code> to <code>.pt-40</code>.</p>
+											 <p>class <code>.pr</code> for apply padding for right,and class range from <code>.pr-0</code> to <code>.pr-40</code>.</p>
+											 <p>class <code>.pb</code> for apply padding for bottom ,and class range from <code>.pb-0</code> to <code>.pb-40</code>.</p>
+											 <p>class <code>.pl</code> for apply padding for left and class range from<code>.pl-0</code> to <code>.pl-40</code>.</p>
+											 <p>class <code>.px</code> for apply padding only for right and left and class range from<code>.px-5</code> to <code>.px-40</code>.</p>
+											 <p>class <code>.py</code> for apply padding only for top and bottom and class range from<code>.py-5</code> to <code>.py-40</code>.</p>
+										  </div>
+									   </div>
+									   <!--/padding-->
+									   <!--Background color-->
+									   <div id="bg-color" class="tabcontent">
+										  <div class="row">
+											 <h1>Background color</h1>
+											 <div class="col-sm-3">
+												<div class="bg-red bx-shadow">
+												   <p class="text-w p-10">bg-red</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-pink bx-shadow">
+												   <p class="text-w p-10">bg-pink</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-purple bx-shadow">
+												   <p class="text-w p-10">bg-purple</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-indigo bx-shadow">
+												   <p class="text-w p-10">bg-indigo</p>
+												</div>
+											 </div>
+										  </div>
+										  <h2 class="pt-20"><strong>Other background color classes</strong></h2>
+										  <p>class <code>.bg-deepPurple</code> for applying background-color dark purple.</p>
+										  <p>class <code>.bg-blue</code> for applying background-color blue</p>
+										  <p>class <code>.bg-liBlue</code> for applying background-color light blue.</p>
+										  <p>class <code>.bg-cyan</code> for applying background-color cyan.</p>
+										  <p>class <code>.bg-teal</code> for applying background-color teal.</p>
+									   </div>
+									   <!--/Background color-->
+									   <!--text align-->
+									   <div id="txt-align" class="tabcontent">
+										  <div class="row">
+											 <h1>Text align</h1>
+											 <p>for text justify use class<code>.text-justify</code>.</p>
+											 <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. 
+												Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. 
+												Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+											 </p>
+											 <p class="text-left pb-20">For left aligned text on all viewport sizes, class<code>.text-left</code></p>
+											 <p class="text-center pb-20">For center aligned text on all viewport sizes, class<code>.text-center</code></p>
+											 <p class="text-right pb-20">For right aligned text on all viewport sizes, class<code>.text-right</code></p>
+											 <div class="bg-faded p-30">
+												<p>for Left aligned text on viewports sized SM (small) or wider.<code>text-sm-left</code></p>
+												<p>Left aligned text on viewports sized MD (medium) or wider.<code>text-md-left</code></p>
+												<p>Left aligned text on viewports sized LG (large) or wider.<code>text-lg-left</code></p>
+												<p>Left aligned text on viewports sized XL (extra-large) or wider.<code>text-xl-left</code></p>
+											 </div>
+										  </div>
+									   </div>
+									   <!--/text align-->
+									   <!--box shadow-->
+									   <div id="box-shadow" class="tabcontent">
+										  <div class="row">
+											 <h1>Box Shadow</h1>
+											 <div class="col-sm-4">
+												<div class="bg-teal bs">
+												   <p class="text-w p-30">bs</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="bg-lime bs-b">
+												   <p class="text-w p-30">bs-b</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="bg-amber bs-rb">
+												   <p class="text-w p-30">bs-rb</p>
+												</div>
+											 </div>
+										  </div>
+										  <h2 class="pt-20"><strong>Box shadow classes</strong></h2>
+										  <p>class <code>.bs</code> gives the normal box shadow effect.</p>
+										  <p>class <code>.bs-b</code> gives the box shadow effect only at the bottom.</p>
+										  <p>class <code>.bs-rb</code> gives the box shadow effect only right and bottom.</p>
+									   </div>
+									   <!--/box shadow-->
+									   <!--text shadow-->
+									   <div id="text-shadow" class="tabcontent">
+										  <div class="row">
+											 <h1>Text Shadow</h1>
+											 <div class="col-sm-3">
+												<div class="bg-primary">
+												   <h2 class="ts p-30 font-700">ts</h2>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-grey">
+												   <h2 class="ts-double p-30 font-700">ts-double</h2>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-blueGrey">
+												   <h2 class="ts-hard p-30 font-700">ts-hard</h2>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-indigo">
+												   <h2 class="ts-3d p-30 font-700">ts-3d</h2>
+												</div>
+											 </div>
+										  </div>
+										  <h2 class="pt-20"><strong>Text shadow classes</strong></h2>
+										  <p>class <code>.ts</code> gives the basic text shadow effect.</p>
+										  <p>class <code>.ts-double</code> gives the double text shadow effect.</p>
+										  <p>class <code>.ts-hard</code> gives the hard text shadow effect.</p>
+										  <p>class <code>.ts-3d</code> gives the 3d text shadow effect.</p>
+									   </div>
+									   <!--/text shadow-->
+									   <!--Background size-->
+									   <div id="bg-size" class="tabcontent">
+										  <div class="row">
+											 <h1>Background size classes</h1>
+											 <p>class<code>.bg-cover</code>for background size cover.</p>
+											 <p>class<code>.bg-contain</code>for background size contain.</p>
+											 <p>class<code>.bg-auto</code>for background size auto.</p>
+											 <h2>Background repeat</h2>
+											 <p>class<code>.bg-rep</code>for background repeat.</p>
+											 <p>class<code>.bg-repn</code>for background no-repeat.</p>
+											 <p>class<code>.bg-repx</code>for background repeat-x.</p>
+											 <p>class<code>.bg-repy</code>for background repeat-y.</p>
+										  </div>
+										  <br>
+									   </div>
+									   <!--/Background size-->
+									   <!--transition-->
+									   <div id="transiton" class="tabcontent">
+										  <div class="row ">
+											 <h2>Transition</h2>
+											 <div class="col-sm-4 ">
+												<div class="bg-inverse time-4s ease4s mb-20px">
+												   <p class="p-30 text-w ">time-4s and ease4s</p>
+												</div>
+											 </div>
+											 <div style="clear:both"></div>
+											 <p>class<code>.time-1s .ease1s </code>transition 1sec ease-in-out 1sec</p>
+											 <p>class<code>.time-2s .ease2s</code>transition 2sec ease-in-out 2sec</p>
+											 <p>class<code>.time-3s .ease3s</code>transition 3sec ease-in-out 3sec</p>
+											 <p>class<code>.time-4s .ease4s</code>transition 4sec ease-in-out 4sec</p>
+											 <p>class<code>.time-5s .ease5s</code>transition 5sec ease-in-out 5sec</p>
+										  </div>
+									   </div>
+									   <!--/transition-->
+									   
+									   <!--transform-->
+								<div id="transform" class="tabcontent">
+								<div class="row">
+								<h1>2D Transform</h1>	
+								<p>The translate() method moves an element from its current position (according to the parameters given for the X-axis and the Y-axis).</p>
+								
+								<p><strong>Respective classes for translate</strong></p>
+								<ul class="mb-20">
+								<li><code>transform-x</code></li>
+								<li><code>transform-y</code></li>
+								<li><code>transform</code></li>
+								</ul>
+								<div class="flex-box p-30 transform-x" style="width:400px;"><code>.transform-x</code>  defines a 2D translation, moving the element 50% along the X-axis</div>
+								<div class="flex-box p-30 transform-y" style="width:400px;"><code>.transform-y</code>  defines a 2D translation, moving the element 50% along the Y-axis</div>
+								<br>
+								<div class="flex-box p-30 transform" style="width:400px;"><code>.transform</code>  defines a 2D translation, moving the element 50% along the X-axis and Y-axis</div>
+								</div>
+								</div>
+								<!--/transform-->
+									   
+									   <!--Text wrapping and overflow-->
+									   <div id="txt-wrap" class="tabcontent">
+										  <div class="row">
+											 <h1>Text wrapping and overflow</h1>
+											 <div class="bg-faded p-30 mb-20px">
+												<p>Prevent text from wrapping with a <code>.text-nowrap</code> class.</p>
+												<div class="col-sm-1">
+												   <p class="text-nwrap"> Curabitur blandit tempus ardua ridiculus sed magna.</p>
+												</div>
+											 </div>
+											 <div style="clear:both"></div>
+											 <div class="bg-faded p-30">
+												<p>For longer content, you can add a <code>.text-truncate</code> class to truncate the text with an ellipsis</p>
+												<div class="col-sm-2">
+												   <p class="text-truncate">Praeterea iter est quasdam res quas ex communi.</p>
+												</div>
+											 </div>
+										  </div>
+									   </div>
+									   <!--/Text wrapping and overflow-->
+									   <!--Vertical align-->
+									   <div id="v-align" class="tabcontent">
+										  <div class="row">
+											 <h2>Vertical ailgn</h2>
+											 <div class="col-sm-12">
+												<p>vertical align baseline <code class="valign-baseline">.valign-baseline</code>.</p>
+												<p>vertical align top<code class="valign-top">.valign-top</code>.</p>
+												<p>vertical align bottom<code class="valign-bottom">.valign-bottom</code>.</p>
+												<p>vertcal align text-top<code class="valign-text-top">.valign-text-top</code>.</p>
+												<p>vertcal align text-bottom<code class="valign-text-bottom">.valign-text-bottom</code>.</p>
+												<p>vertcal align middle<code class="valign-middle">.valign-middle</code>.</p>
+											 </div>
+										  </div>
+									   </div>
+									   <!--/Vertical align-->
+									   <!--border none-->
+									   <div id="brdr-none" class="tabcontent">
+										  <div class="row">
+											 <h1>Border None </h1>
+											 <div class="col-sm-3">
+												<div class="bg-primary border-0">
+												   <p class="p-30 text-w">br-0</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-primary brdr border-top-0">
+												   <p class="p-30 text-w">br-t0</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-primary brdr border-right-0">
+												   <p class="p-30 text-w">br-r0</p>
+												</div>
+											 </div>
+											 <div class="col-sm-3">
+												<div class="bg-primary brdr border-bottom-0">
+												   <p class="p-30 text-w">br-b0</p>
+												</div>
+											 </div>
+										  </div>
+										  <h3>Supporting classes</h3>
+										  <p>class<code>.border-0</code>border none.</p>
+										  <p>class<code>.border-top-0</code>border top none.</p>
+										  <p>class<code>.border-right-0</code>border right none.</p>
+										  <p>class<code>.border-bottom-0</code>border bottom none.</p>
+										  <p>class<code>.border-left-0</code>border left none</p>
+									   </div>
+									   <!--/border none-->
+									   <!--border radius-->
+									   <div id="border-radius" class="tabcontent">
+										  <div class="row">
+											 <h1>Border radius</h1>
+											 <div class="row">
+											 <div class="col-sm-4">
+												<div class="bg-teal p-40 br-30 bx-shadow">
+												   <p class="text-w">border-radius 30</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4 ">
+												<div class="bg-liGreen p-40 br-t30 bx-shadow">
+												   <p class="text-w">border-radius-top 30px</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4">
+												<div class="bg-dpPurple p-40 br-bl30 bx-shadow">
+												   <p class="text-w">border-radius-bottom-left 20px</p>
+												</div>
+											 </div>
+											 </div>
+											 <br>
+											 <h2>Other border radius classes</h2>
+											 <p>class <code>.br</code> for applying full border radius<code>.br-0 to .br-30</code>.</p>
+											 <p>class <code>.br-t</code> for applying border radius top<code>.br-t5 to .br-30</code>.</p>
+											 <p>class <code>.br-b</code> for applying border radius bottom <code>.br-b5 to .br-b30</code>.</p>
+											 <p>class <code>.br-l</code> for applying border radius left<code>.br-l0 to .br-l30</code>.</p>
+											 <p>class <code>.br-r</code> for applying border radius right<code>.br-r0 to .br-r30</code>.</p>
+											 <p>class <code>.br-tl</code> for applying border radius top-left<code>.br-tl0 to .br-tl30</code>.</p>
+											 <p>class <code>.br-tr</code> for applying border radius top-right<code>.br-tr0 to .br-tr30</code>.</p>
+											 <p>class <code>.br-br</code> for applying border radius bottom right<code>.br-br0 to .br-br30</code>.</p>
+											 <p>class <code>.br-bl</code> for applying border radius bottom left<code>.br-bl0 to .br-bl30</code>.</p>
+										  </div>
+									   </div>
+									   <!--/border radius-->
+									   <!--Display-->
+									   <div id="disp" class="tabcontent">
+										  <div class="row">
+											 <h1>Display</h1>
+											 <ul>
+												<li>
+												   display none<code>.d-none</code>
+												</li>
+												<li>
+												   display inline<code>.d-inline </code>
+												</li>
+												<li>
+												   display block<code>.d-inline-block</code>
+												</li>
+												<li>
+												   display inline-block<code>.d-block</code>
+												</li>
+												<li>
+												   display table<code>.d-table</code>
+												</li>
+												<li>
+												   display table-cell<code>.d-table-cell</code>
+												</li>
+											 </ul>
+										  </div>
+									   </div>
+									   <!--/Display-->
+									   <!--text align-->
+									   <div id="txt-align" class="tabcontent">
+										  <div class="row">
+											 <h1>Text align</h1>
+											 <p>for text justify use class<code>.text-justify</code>.</p>
+											 <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. 
+												Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. 
+												Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.
+											 </p>
+											 <p class="text-left pb-20">For left aligned text on all viewport sizes, class<code>.text-left</code></p>
+											 <p class="text-center pb-20">For center aligned text on all viewport sizes, class<code>.text-center</code></p>
+											 <p class="text-right pb-20">For right aligned text on all viewport sizes, class<code>.text-right</code></p>
+											 <div class="bg-faded p-30">
+												<p>for Left aligned text on viewports sized SM (small) or wider.<code>text-sm-left</code></p>
+												<p>Left aligned text on viewports sized MD (medium) or wider.<code>text-md-left</code></p>
+												<p>Left aligned text on viewports sized LG (large) or wider.<code>text-lg-left</code></p>
+												<p>Left aligned text on viewports sized XL (extra-large) or wider.<code>text-xl-left</code></p>
+											 </div>
+										  </div>
+									   </div>
+									   <!--/text align-->
+									   <!--font weight-->
+									   <div id="font-weight" class="tabcontent">
+										  <div class="row">
+											 <h1>Font weight and italics</h1>
+											 <div class="bg-faded p-30">
+												<p class="font-bold">For Bold text you can add class <code class="font-normal">.font-bold</code>.</p>
+												<p class=" ">Normal weight text you can add class <code>.font-normal</code></p>
+												<p class="font-italic">Italic text you can add class <code>.font-italic</code></p>
+												<p class="font-100">For font-weight 100 you can add class <code>.font-100</code></p>
+												<p class="font-200">For font-weight 200 you can add class <code>.font-200</code></p>
+												<p class="font-300">For font-weight 300 you can add class <code>.font-300</code></p>
+												<p class="font-400">For font-weight 400 you can add class <code>.font-400</code></p>
+												<p class="font-500">For font-weight 500 you can add class <code>.font-500</code></p>
+												<p class="font-600">For font-weight 600 you can add class <code class="font-normal">.font-600</code></p>
+												<p class="font-700">For font-weight 700 you can add class <code class="font-normal">.font-700</code></p>
+												<p class="font-800">For font-weight 800 you can add class <code class="font-normal">.font-800</code></p>
+												<p class="font-900">For font-weight 900 you can add class <code class="font-normal">.font-900</code></p>
+											 </div>
+										  </div>
+									   </div>
+									   <!--/font weight-->
+									   <!--Hidden utilities-->
+									   <div id="hidden" class="tabcontent">
+										  <h1>Responsive utilities</h1>
+										  <br>
+										  <div class="row">
+											 <div class="col-6 col-sm-3">
+												<div class="hidden-sm-up visible bg-dpOrange">
+												   <p class="p-30 text-w">Visible on extra small</p>
+												</div>
+												<div class="hidden-xs-down not-visible bg-primary">
+												   <p class="p-30 text-w">Extra small</p>
+												</div>
+											 </div>
+											 <div class="col-6 col-sm-3">
+												<div class="hidden-md-up visible bg-dpOrange ">
+												   <p class="p-30 text-w">Visible on small or narrower</p>
+												</div>
+												<div class="hidden-sm-down not-visible bg-primary ">
+												   <p class="p-30 text-w">Small or narrower</p>
+												</div>
+											 </div>
+											 <div class="col-6 col-sm-3">
+												<div class="hidden-lg-up visible bg-dpOrange">
+												   <p class="p-30 text-w">Visible on medium or narrower</p>
+												</div>
+												<div class="hidden-md-down not-visible bg-primary ">
+												   <p class="p-30 text-w">Medium or narrower</p>
+												</div>
+											 </div>
+											 <div class="col-6 col-sm-3">
+												<div class="hidden-xl-up visible bg-dpOrange ">
+												   <p class="p-30 text-w">Visible on large or narrower</p>
+												</div>
+												<div class="hidden-lg-down not-visible bg-primary ">
+												   <p class="p-30 text-w">Large or narrower</p>
+												</div>
+											 </div>
+										  </div>
+										  <br>
+										  <br>
+										  <div class="row">
+											 <table class="table table-bordered responsive-utilities table-responsive">
+												<thead>
+												   <tr>
+													  <th></th>
+													  <th>
+														 Extra small devices
+														 <small>Portrait phones (&lt;544px)</small>
+													  </th>
+													  <th>
+														 Small devices
+														 <small>Landscape phones (≥544px - &lt;768px)</small>
+													  </th>
+													  <th>
+														 Medium devices
+														 <small>Tablets (≥768px - &lt;992px)</small>
+													  </th>
+													  <th>
+														 Large devices
+														 <small>Desktops (≥992px - &lt;1200px)</small>
+													  </th>
+													  <th>
+														 Extra large devices
+														 <small>Desktops (≥1200px)</small>
+													  </th>
+												   </tr>
+												</thead>
+												<tbody>
+												   <tr>
+													  <th scope="row"><code>.hidden-xs-down</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-sm-down</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-md-down</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-lg-down</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-visible">Visible</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-xl-down</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-xs-up</code></th>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-sm-up</code></th>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-md-up</code></th>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-lg-up</code></th>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												   <tr>
+													  <th scope="row"><code>.hidden-xl-up</code></th>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-visible">Visible</td>
+													  <td class="is-hidden bg-f9">Hidden</td>
+												   </tr>
+												</tbody>
+											 </table>
+										  </div>
+									   </div>
+									   <!--/Hidden utilities-->
+									   
+									   <!--Float-->
+									   <div id="float" class="tabcontent">
+										  <div class="row">
+											 <h1>Float</h1>
+											 <div class="col-sm-4 col-xs-12">
+												<div class="float-left ">
+												   <p class="p-30">float-left</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4 col-xs-12">
+												<div class="float-none">
+												   <p class="p-30">float-none</p>
+												</div>
+											 </div>
+											 <div class="col-sm-4 col-xs-12">
+												<div class="float-right">
+												   <p class="p-30">float-right</p>
+												</div>
+											 </div>
+										  </div>
+										  <p>class <code>.float-left</code> Float left on all viewport sizes.</p>
+										  <p>class <code>.float-none</code> Float none on all viewport sizes.</p>
+										  <p>class <code>.float-right</code> Float right on all viewport sizes.</p>
+										  <h1>Responsive</h1>
+										  <p>Float left on viewports sized SM (small) or wider</p>
+										  <p>Float left on viewports sized MD (medium) or wider</p>
+										  <p>Float left on viewports sized LG (large) or wider</p>
+										  <p>Float left on viewports sized XL (extra-large) or wider</p>
+										  <h3 class="pb-5">Here all Supporting Classes</h3>
+										  <ul>
+											 <li>
+												<p><code>.float-left</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-none</code></p>
+											 </li>
+											 <li>
+												<p><code>.float-right</code></p>
+											 </li>
+											 <li>
+												<p><code>.float-sm-left</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-sm-none</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-sm-right</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-md-left</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-md-none</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-md-right</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-lg-left</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-lg-none</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-lg-right</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-xl-left</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-xl-none</code>
+												<p>
+											 </li>
+											 <li>
+												<p><code>.float-xl-right</code>
+												<p>
+											 </li>
+										  </ul>
+									   </div>
+									   <!--/Float-->
+									  
+									   <!--extended grid-->
+									   <div id="extend-grid" class="tabcontent">
+									   <h1>Extended grid</h1>
+									   
+									   <div class="row">
+									   <div class="col-md-4 col-xxs-12">
+									   <div class="is-visible p-30 mb-20">
+									   <p>col-xxs-12</p>
+									   </div>
+									   </div>
+									  <div class="col-md-4 col-xxs-12">
+									   <div class="is-visible p-30  mb-20">
+									   <p>col-xxs-12</p>
+									   </div>
+									   </div>
+									   <div class="col-md-4 col-xxs-12">
+									   <div class="is-visible p-30 mb-20">
+									   <p>col-xxs-12</p>
+									   </div>
+									   </div>
+									   
+									  
+									   <div class="col-md-4 col-xxxs-12">
+									   <div class="is-visible p-30 mb-20">
+									   <p>col-xxxs-12</p>
+									   </div>
+									   </div>
+									  <div class="col-md-4 col-xxxs-12">
+									   <div class="is-visible p-30  mb-20">
+									   <p>col-xxxs-12</p>
+									   </div>
+									   </div>
+									   <div class="col-md-4 col-xxxs-12">
+									   <div class="is-visible p-30 mb-20">
+									   <p>col-xxxs-12</p>
+									   </div>
+									   </div>
+									   
+									   </div>
+									   
+									   <p>We extend the bootstrap grid (without bootstrap3 grid system hack) <code>.col-xs</code>to 
+									   <code>.col-xxs</code> and <code>.col-xxxs</code> .</p>
+									   
+									   
+									   <h3>Extended grid classes</h3>
+									   <p><code>.col-xxs-1 to .col-xxs-12</code></p>
+									   <p><code>.col-xxxs-1 to .col-xxxs-12</code></p>
+									   </div>
+									   <!--/extended grid-->
+									   
+									   <!--flexbox-->
+									  <div id="flex" class="tabcontent">
+									<div class="row">
+									<h1>Flexbox</h1>
+									<p>Apply <code>display</code> utilities to create a flexbox container and transform direct <b>children elements into flex items</b>. Flex containers and items are able to be modified further with additional flex properties.</p>
+									<div class="d-flex p-5 flex-box mb-20">I'm a flexbox container!</div>
+									
+									<div class="d-inline-flex p-5 flex-box mb-10">
+										I'm an inline flexbox container!
+										
+										I'm an inline flexbox container!
+										</div>
+										
+									<p>Responsive variations also exist for <code>.d-flex</code> and <code>.d-inline-flex.</code></p>
+									
+									<ul class="mt-20">
+									  <li><p><code>.d-flex</code></p></li>
+									  <li><p><code>.d-inline-flex</code></p></li>
+									  <li><p><code>.d-sm-flex</code></p></li>
+									  <li><p><code>.d-sm-inline-flex</code></p></li>
+									  <li><p><code>.d-md-flex</code></p></li>
+									  <li><p><code>.d-md-inline-flex</code></p></li>
+									  <li><p><code>.d-lg-flex</code></p></li>
+									  <li><p><code>.d-lg-inline-flex</code></p></li>
+									  <li><p><code>.d-xl-flex</code></p></li>
+									  <li><p><code>.d-xl-inline-flex</code></p></li>
+									</ul>
+									<br>
+									<h2>Directions</h2>
+									<p>Use <code>.flex-row</code> to set a horizontal direction (the browser default), or <code>.flex-row-reverse</code> to start the horizontal direction from the opposite side.</p>
+									
+									<p>by using <code>.flex-row</code></p>
+									<div class="d-flex flex-row flex-box mb-30">
+									  <div class="p-5 flex-box">Flex item 1</div>
+									  <div class="p-5 flex-box">Flex item 2</div>
+									  <div class="p-5 flex-box">Flex item 3</div>
+									</div>
+																				
+									<p>by using <code>.flex-row-reverse</code></p>
+									
+									<div class="d-flex flex-row-reverse flex-box mb-30">
+									  <div class="p-5 flex-box">Flex item 1</div>
+									  <div class="p-5 flex-box">Flex item 2</div>
+									  <div class="p-5 flex-box">Flex item 3</div>
+									</div>
+									
+									<p>Use <code class="highlighter-rouge mb-30">.flex-column</code> to set a vertical direction, or <code>.flex-column-reverse</code>  to start the vertical direction from the opposite side.</p>
+									
+									<div class="d-flex flex-column flex-box mb-30">
+									  <div class="flex-box p-5">Flex item 1</div>
+									  <div class="flex-box p-5">Flex item 2</div>
+									  <div class="flex-box p-5">Flex item 3</div>
+									</div>
+									
+									<div class="d-flex flex-column-reverse flex-box mb-30">
+									  <div class="flex-box p-5">Flex item 1</div>
+									  <div class="flex-box p-5">Flex item 2</div>
+									  <div class="flex-box p-5">Flex item 3</div>
+									</div>
+																		
+									<p>Responsive variations also exist for <code>flex-direction</code>.</p>
+									
+									<ul class="mt-20">
+									  <li><code>.flex-row</code></li>
+									  <li><code>.flex-row-reverse</code></li>
+									  <li><code>.flex-column</code></li>
+									  <li><code>.flex-column-reverse</code></li>
+									  <li><code>.flex-sm-row</code></li>
+									  <li><code>.flex-sm-row-reverse</code></li>
+									  <li><code>.flex-sm-column</code></li>
+									  <li><code>.flex-sm-column-reverse</code></li>
+									  <li><code>.flex-md-row</code></li>
+									  <li><code>.flex-md-row-reverse</code></li>
+									  <li><code>.flex-md-column</code></li>
+									  <li><code>.flex-md-column-reverse</code></li>
+									  <li><code>.flex-lg-row</code></li>
+									  <li><code>.flex-lg-row-reverse</code></li>
+									  <li><code>.flex-lg-column</code></li>
+									  <li><code>.flex-lg-column-reverse</code></li>
+									  <li><code>.flex-xl-row</code></li>
+									  <li><code>.flex-xl-row-reverse</code></li>
+									  <li><code>.flex-xl-column</code></li>
+									  <li><code>.flex-xl-column-reverse</code></li>
+									</ul>
+									<br>
+									<h2>Justify Content</h2>
+									<p>Use <code>justify-content</code> utilities on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if <code>flex-direction: column</code>). 
+									Choose from <code >start</code> (browser default), <code>end</code>, 
+									<code>center</code>, <code>between</code>, or <code>around</code>.</p>
+									
+									<div class="d-flex justify-content-start flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									  <div class="d-flex justify-content-end flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									  <div class="d-flex justify-content-center flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									  <div class="d-flex justify-content-between flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									  <div class="d-flex justify-content-around flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									
+									<p>Responsive variations also exist for <code>justify-content</code>.</p>
+									
+									<ul class="mt-20">
+									  <li><code>.justify-content-start</code></li>
+									  <li><code>.justify-content-end</code></li>
+									  <li><code>.justify-content-center</code></li>
+									  <li><code>.justify-content-between</code></li>
+									  <li><code>.justify-content-around</code></li>
+									  <li><code>.justify-content-sm-start</code></li>
+									  <li><code>.justify-content-sm-end</code></li>
+									  <li><code>.justify-content-sm-center</code></li>
+									  <li><code>.justify-content-sm-between</code></li>
+									  <li><code>.justify-content-sm-around</code></li>
+									  <li><code>.justify-content-md-start</code></li>
+									  <li><code>.justify-content-md-end</code></li>
+									  <li><code>.justify-content-md-center</code></li>
+									  <li><code>.justify-content-md-between</code></li>
+									  <li><code>.justify-content-md-around</code></li>
+									  <li><code>.justify-content-lg-start</code></li>
+									  <li><code>.justify-content-lg-end</code></li>
+									  <li><code>.justify-content-lg-center</code></li>
+									  <li><code>.justify-content-lg-between</code></li>
+									  <li><code>.justify-content-lg-around</code></li>
+									  <li><code>.justify-content-xl-start</code></li>
+									  <li><code>.justify-content-xl-end</code></li>
+									  <li><code>.justify-content-xl-center</code></li>
+									  <li><code>.justify-content-xl-between</code></li>
+									  <li><code>.justify-content-xl-around</code></li>
+									</ul>
+									
+									<br>
+									<h2>Align items</h2>
+									<p>Use <code>align-items</code> utilities on flexbox containers to change the alignment of flex items on the cross axis (the y-axis to start, x-axis if <code>flex-direction: column</code>).
+									 Choose from <code>start</code>, <code>end</code>, <code >center</code>, <code>baseline</code>, or <code>stretch</code> (browser default).</p>
+									
+									<div class="bd-example">
+								  <div class="d-flex align-items-start flex-box mb-20" style="height: 100px">
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+								  </div>
+								  <div class="d-flex align-items-end flex-box mb-20" style="height: 100px">
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+								  </div>
+								  <div class="d-flex align-items-center flex-box mb-20" style="height: 100px">
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+								  </div>
+								  <div class="d-flex align-items-baseline flex-box mb-20" style="height: 100px">
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+								  </div>
+								  <div class="d-flex align-items-stretch flex-box mb-20" style="height: 100px">
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+									<div class="flex-box p-5">Flex item</div>
+								  </div>
+								</div>
+									
+								<p>Responsive variations also exist for <code>align-self</code>.</p>
+									
+								<ul class="mt-20">
+								  <li><code>.align-self-start</code></li>
+								  <li><code>.align-self-end</code></li>
+								  <li><code>.align-self-center</code></li>
+								  <li><code>.align-self-baseline</code></li>
+								  <li><code>.align-self-stretch</code></li>
+								  <li><code>.align-self-sm-start</code></li>
+								  <li><code>.align-self-sm-end</code></li>
+								  <li><code>.align-self-sm-center</code></li>
+								  <li><code>.align-self-sm-baseline</code></li>
+								  <li><code>.align-self-sm-stretch</code></li>
+								  <li><code>.align-self-md-start</code></li>
+								  <li><code>.align-self-md-end</code></li>
+								  <li><code>.align-self-md-center</code></li>
+								  <li><code>.align-self-md-baseline</code></li>
+								  <li><code>.align-self-md-stretch</code></li>
+								  <li><code>.align-self-lg-start</code></li>
+								  <li><code>.align-self-lg-end</code></li>
+								  <li><code>.align-self-lg-center</code></li>
+								  <li><code>.align-self-lg-baseline</code></li>
+								  <li><code>.align-self-lg-stretch</code></li>
+								  <li><code>.align-self-xl-start</code></li>
+								  <li><code>.align-self-xl-end</code></li>
+								  <li><code>.align-self-xl-center</code></li>
+								  <li><code>.align-self-xl-baseline</code></li>
+								  <li><code>.align-self-xl-stretch</code></li>
+								</ul>	
+								<br>	
+								<h2><strong>Auto margins</strong></h2>	
+								<p>Flexbox can do some pretty awesome things when you mix flex alignments with auto margins.</p>	
+								<h3>With justify-content</h3>	
+								<p>Easily move all flex items to one side, but keep another on the opposite end by mixing <code>justify-content</code> with <code>margin-right: auto</code> or <code>margin-left: auto</code>.</p>
+									
+									
+								<div class="d-flex justify-content-end flex-box mb-20">
+								  <div class="mr-auto p-2 bd-highlight">Flex item</div>
+								  <div class="flex-box p-5">Flex item</div>
+								  <div class="flex-box p-5">Flex item</div>
+								</div>
+
+								<div class="d-flex justify-content-start flex-box mb-20">
+								  <div class="flex-box p-5">Flex item</div>
+								  <div class="flex-box p-5">Flex item</div>
+								  <div class="ml-auto flex-box p-5">Flex item</div>
+								</div>
+								
+								<h3><strong>With align-items</strong></h3>	
+								<p>Similarly, move one flex item to the top or bottom of a container by mixing <code>align-items</code>, <code>flex-direction: column</code>, and <code>margin-top: auto</code> or <code>margin-bottom: auto</code>.</p>	
+									
+									<div class="d-flex align-items-start flex-column flex-box mb-20" style="height: 200px;">
+									  <div class="mb-auto flex-box p-5">Flex item</div>
+									  <div class="flex-box p-5">Flex item</div>
+									  <div class="flex-box p-5">Flex item</div>
+									</div>
+
+									<div class="d-flex align-items-end flex-column flex-box mb-20" style="height: 200px;">
+									  <div class="flex-box p-5">Flex item</div>
+									  <div class="flex-box p-5">Flex item</div>
+									  <div class="mt-auto flex-box p-5">Flex item</div>
+									</div>
+									
+								<h3><strong>Wrap</strong></h3>		
+									
+								<p>Change how flex items wrap in a flex container. Choose from no wrapping at all (the browser default) with <code>.flex-nowrap</code>, wrapping with
+								 <code>.flex-wrap</code>, or reverse wrapping with <code>.flex-wrap-reverse</code>.</p>	
+									<div class="d-flex flex-nowrap flex-box mb-20">
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+										<div class="flex-box p-5">Flex item</div>
+									  </div>
+									
+									
+								<div class="d-flex flex-wrap flex-box mb-20">
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+							  </div>	
+								
+								
+								<p>Using <code>.align-content-between, .flex-wrap</code></p>								
+								<div class="d-flex align-content-between flex-wrap flex-box mb-20" style="height: 200px;width: 74%;">
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+							  </div>	
+																
+								<p>Using <code>.align-content-around, .flex-wrap</code></p>	
+									
+								<div class="d-flex align-content-around flex-wrap flex-box mb-20" style="height: 200px;width: 74%;">
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+							  </div>	
+									
+								<p>Using <code>.align-content-stretch, .flex-wrap</code></p>		
+									
+								<div class="d-flex align-content-stretch flex-wrap flex-box mb-20" style="height: 200px;width: 74%;">
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+								<div class="flex-box p-5">Flex item</div>
+							  </div>	
+									
+								<p>Responsive variations also exist for <code>.align-content</code>.</p>	
+									
+								<ul class="mt-20">
+								  <li><code>.align-content-start</code></li>
+								  <li><code>.align-content-end</code></li>
+								  <li><code>.align-content-center</code></li>
+								  <li><code>.align-content-around</code></li>
+								  <li><code>.align-content-stretch</code></li>
+								  <li><code>.align-content-sm-start</code></li>
+								  <li><code>.align-content-sm-end</code></li>
+								  <li><code>.align-content-sm-center</code></li>
+								  <li><code>.align-content-sm-around</code></li>
+								  <li><code>.align-content-sm-stretch</code></li>
+								  <li><code>.align-content-md-start</code></li>
+								  <li><code>.align-content-md-end</code></li>
+								  <li><code>.align-content-md-center</code></li>
+								  <li><code>.align-content-md-around</code></li>
+								  <li><code>.align-content-md-stretch</code></li>
+								  <li><code>.align-content-lg-start</code></li>
+								  <li><code>.align-content-lg-end</code></li>
+								  <li><code>.align-content-lg-center</code></li>
+								  <li><code>.align-content-lg-around</code></li>
+								  <li><code>.align-content-lg-stretch</code></li>
+								  <li><code>.align-content-xl-start</code></li>
+								  <li><code>.align-content-xl-end</code></li>
+								  <li><code>.align-content-xl-center</code></li>
+								  <li><code>.align-content-xl-around</code></li>
+								  <li><code>.align-content-xl-stretch</code></li>
+								</ul>	
+									</div>	
+									  </div>
+									  <!--flexbox--> 
+								
+									<!--no-gutters-->
+									<div id="no-gutter" class="tabcontent">
+									<h1>No gutters</h1>
+									<div class="row no-gutters">
+									<div class="col-md-4 col-xs-12">
+									<div class="flex-box p-30">col-md-4</div>
+									</div>
+									<div class="col-md-4 col-xs-12">
+									<div class="flex-box p-30">col-md-4</div>
+									</div>
+									<div class="col-md-4 col-xs-12">
+									<div class="flex-box p-30">col-md-4</div>
+									</div>
+									</div>
+									<br>
+									<p><code>.no-gutters</code>, removes</p>
+									<ul>
+									<li>Remove margin from the row</li>
+									<li>Remove padding from all columns directly beneath the row</li>
+									</ul>
+									</div>	
+								
+									<!--/no-gutters-->
+										
+									
+									</div>
+								 </div>
+							  </div>
+							  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+							  <script type="text/javascript" src="js/tab.js"></script>
+						   </body>
+						</html>

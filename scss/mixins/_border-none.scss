@@ -1,0 +1,19 @@
+@mixin border($border){
+border:$border;
+}
+
+@mixin border-top($border-top){
+border-top:$border-top;
+}
+
+@mixin border-right($border-right){
+border-right:$border-right;
+}
+
+@mixin border-bottom($border-bottom){
+border-bottom:$border-bottom;
+}
+
+@mixin border-left($border-left){
+border-left:$border-left;
+}

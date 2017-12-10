@@ -1,0 +1,14 @@
+@mixin text-align($text-align){
+text-align:$text-align;
+}
+
+@mixin text-wrap($text-wrap){
+white-space:$text-wrap;
+
+}
+
+@mixin text-truncate($overflow,$text-overflow,$white-space){
+  overflow: $overflow;
+  text-overflow:$text-overflow;
+  white-space:$white-space;
+}

@@ -1,0 +1,15 @@
+@mixin col-xxs($width,$padding-left,$padding-right,$position,$float){
+width:$width;
+padding-left:$padding-left; 
+padding-right:$padding-right; 
+position:$position; 
+float:$float;
+}
+
+@mixin  col-xxxs($width,$padding-left,$padding-right,$position,$float){
+width:$width;
+padding-left:$padding-left; 
+padding-right:$padding-right; 
+position:$position; 
+float:$float;
+}

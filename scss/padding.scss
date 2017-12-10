@@ -1,0 +1,23 @@
+.p-5{@include paddng(5px);}
+.p-10{@include paddng(10px);}
+.p-15{@include paddng(15px);}
+.p-20{@include paddng(20px);}
+.p-25{@include paddng(25px);}
+.p-30{@include paddng(30px);}
+.p-40{@include paddng(40px);}
+
+.px-5{@include paddng(0 5px);}
+.px-10{@include paddng(0 10px);}
+.px-15{@include paddng(0 15px);}
+.px-20{@include paddng(0 20px);}
+.px-25{@include paddng(0 25px);}
+.px-30{@include paddng(0 30px);}
+.px-40{@include paddng(0 40px);}
+
+.py-5{@include paddng(5px 0);}
+.py-10{@include paddng(10px 0);}
+.py-15{@include paddng(15px 0);}
+.py-20{@include paddng(20px 0);}
+.py-25{@include paddng(25px 0);}
+.py-30{@include paddng(30px 0);}
+.py-40{@include paddng(40px 0);}

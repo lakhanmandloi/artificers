@@ -1,0 +1,12 @@
+@mixin text-shadow($text-shadow){
+text-shadow:$text-shadow;
+}
+
+@mixin txt-shadow($text-shadow1,$text-shadow2){
+text-shadow:$text-shadow1,$text-shadow2;
+}
+
+@mixin txt-shadow12($txt-1,$txt-2,$txt-3,$txt-4,$txt-5,$txt-6,$txt-7,$txt-8,$txt-9,$txt-10,$txt-11,$txt-12,){
+text-shadow:$txt-1,$txt-2,$txt-3,$txt-4,$txt-5,$txt-6,$txt-7,$txt-8,$txt-9,$txt-10,$txt-11,$txt-12,;
+}
+

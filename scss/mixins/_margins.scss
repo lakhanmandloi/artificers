@@ -1,0 +1,30 @@
+@mixin margin($marign){
+margin:$margin;
+}
+
+@mixin margin-top($margin-top){
+margin-top:$margin-top
+}
+
+@mixin margin-right($margin-right){
+margin-right:$margin-right;
+}
+
+@mixin margin-bottom($margin-bottom){
+
+margin-bottom:$margin-bottom;
+}
+
+@mixin margin-left($margin-left){
+margin-left:$margin-left;
+}
+
+@mixin mx-auto($mx-auto){
+margin-right:$mx-auto;
+margin-left:$mx-auto;
+}
+
+@mixin my-auto($my-auto){
+margin-top:$my-auto;
+margin-bottom:$my-auto;
+}

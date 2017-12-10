@@ -1,0 +1,13 @@
+.m-auto{@include margin(auto !important);}
+
+.mt-auto{@include margin-top(auto !important);}
+
+.mr-auto{@include margin-right(auto !important);}
+
+.mb-auto{@include margin-bottom(auto !important);}
+
+.ml-auto{@include margin-left(auto !important);}
+
+.mx-auto{@include mx-auto(auto !important);}
+
+.my-auto{@include my-auto(auto !important);}

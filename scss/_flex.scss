@@ -1,0 +1,2 @@
+.d-sm-flex{@include flex(-webkit-box !important,-webkit-flex !important,-ms-flexbox !important,flex !important);}
+.d-sm-inline-flex{@include flex-inline(-webkit-inline-box !important,-webkit-inline-flex !important,-ms-inline-flexbox !important, inline-flex !important);}

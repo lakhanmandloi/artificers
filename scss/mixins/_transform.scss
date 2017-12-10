@@ -1,0 +1,6 @@
+@mixin transform-translate($transform){
+ -ms-transform:$transform;
+    -webkit-transform:$transform;
+    transform:$transform;
+
+}

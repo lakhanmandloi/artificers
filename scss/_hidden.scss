@@ -1,0 +1,58 @@
+.hidden-xs-up{@include hidden(none !important);}
+
+@media (max-width:575px){
+.hidden-xs-down{@include hidden(none !important);}
+}
+
+@media (min-width: 576px){
+  .hidden-sm-up{@include hidden(none !important);}
+}
+
+@media (max-width: 767px){
+  .hidden-sm-down{@include hidden(none !important);}
+}
+
+@media (min-width: 768px){
+.hidden-md-up{@include hidden(none !important);}
+}  
+
+
+@media (max-width: 991px){
+  .hidden-md-down{@include hidden(none !important);}
+}
+
+@media (min-width: 992px){
+  .hidden-lg-up{@include hidden(none !important);}
+}
+
+@media (max-width: 1199px){
+  .hidden-lg-down{@include hidden(none !important);}
+  }
+
+@media (min-width: 1200px){
+  .hidden-xl-up{@include hidden(none !important);}
+}
+
+.hidden-xl-down{@include hidden(none !important);}
+@media print {
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+.visible-print-inline{@include visible-print-block(none !important);}
+
+@media print {
+  .visible-print-inline{@include visible-print-block(inline !important);}
+}
+
+.visible-print-inline-block{@include visible-print-block(none !important);}
+
+@media print {
+  .visible-print-inline-block{@include visible-print-block(inline-block !important);}
+    }
+    
+
+@media print {
+  .hidden-print{@include visible-print-block(none !important);}
+}

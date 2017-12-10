@@ -1,0 +1,3 @@
+.transform-x{@include transform-translate(translateX(50%));}
+.transform-y{@include transform-translate(translateY(50%));}
+.transform{@include transform-translate(translate(50%,50%));}
