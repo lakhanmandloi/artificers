@@ -1,21 +1,25 @@
+.bg-white{@include background-color(#FFFFFF);}
 .bg-red{@include background-color(#F44336);}
 .bg-pink{@include background-color(#E91E63);}
 .bg-purple{@include background-color(#9C27B0);}
 .bg-deepPurple{@include background-color(#673AB7);}
 .bg-indigo{@include background-color(#3F51B5);}
 .bg-blue{@include background-color(#2196F3);}
-.bg-liBlue{@include background-color(#03A9F4);}
+.bg-lightBlue{@include background-color(#03A9F4);}
 .bg-cyan{@include background-color(#00BCD4);}
 .bg-teal{@include background-color(#009688);}
-.bg-liGreen{@include background-color(#8BC34A);}
+.bg-green{@include background-color(#4CAF50);}
+.bg-lightGreen{@include background-color(#8BC34A);}
 .bg-lime{@include background-color(#CDDC39);}
 .bg-yellow{@include background-color(#FFEB3B);}
 .bg-amber{@include background-color(#FFC107);}
-.bg-dpOrange{@include background-color(#FF5722);}
+.bg-orange{@include background-color(#FF9800);}
+.bg-deepOrange{@include background-color(#FF5722);}
 .bg-brown{@include background-color(#795548);}
 .bg-grey{@include background-color(#9E9E9E);}
 .bg-blueGrey{@include background-color(#607D8B);}
 .bg-faded{@include background-color(#f7f7f7);}
+
 .bg-primary{@include background-color(#0275d8 !important);}
 .bg-success{@include background-color(#5cb85c !important);}
 .bg-info{@include background-color(#5bc0de !important);}

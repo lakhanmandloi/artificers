@@ -1,3 +1,4 @@
 .bg-cover{@include background-size(cover);}
 .bg-contain{@include background-size(contain);}
 .bg-auto{@include background-size(auto);}
+.bg-full{@include background-size(100%);}
