@@ -1,8 +1,6 @@
-
 @mixin space($margin){
 margin:$margin;
 }
-
 .margin-15px{@include space(15px 0);}
 .margin-20px{@include space(20px 0);}
 .margin-25px{@include space(25px 0);}

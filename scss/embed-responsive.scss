@@ -4,12 +4,10 @@
   width: 100%;
   padding: 0;
   overflow: hidden;
-
   &::before {
     display: block;
     content: "";
   }
-
   .responsive-item-embed,
   iframe,
   embed,
@@ -24,25 +22,21 @@
     border: 0;
   }
 }
-
 .responsive-embed-21by9 {
   &::before {
     padding-top: percentage(9 / 21);
   }
 }
-
 .responsive-embed-16by9 {
   &::before {
     padding-top: percentage(9 / 16);
   }
 }
-
 .responsive-embed-4by3 {
   &::before {
     padding-top: percentage(3 / 4);
   }
 }
-
 .responsive-embed-1by1 {
   &::before {
     padding-top: percentage(1 / 1);

@@ -1,25 +1,21 @@
 .float-right{@include float(right !important);}
 .float-left{@include float(left !important);}
 .float-none{@include float(none !important);}
-
 @media (min-width: 576px){
 .float-sm-left{@include float(left !important);}
 .float-sm-right{@include float(right !important);}
 .float-sm-none{@include float(none !important);}
 }
-
 @media (min-width: 768px){
 .float-md-left{@include float(left !important);}
 .float-md-right{@include float(right !important);}
 .float-md-none{@include float(none !important);}
 }
-
 @media (min-width: 992px){
 .float-lg-left{@include float(left !important);}
 .float-lg-right{@include float(right !important);}
 .float-lg-none{@include float(none !important);}
 }
-
 @media (min-width: 1200px){
 .float-xl-left{@include float(left !important);}
 .float-xl-right{@include float(right !important);}

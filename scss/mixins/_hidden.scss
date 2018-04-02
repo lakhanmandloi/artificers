@@ -1,7 +1,6 @@
 @mixin hidden($hidden){
 display:$hidden;
 }
-
 @mixin visible-print-block($visible-print-block){
 display:$visible-print-block;
 }
