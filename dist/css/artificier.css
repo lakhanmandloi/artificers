@@ -549,17 +549,9 @@
 
 .d-inline-flex { display: inline-flex !important; }
 
-.text-justify { text-align: justify !important; }
-
-.text-nwrap { white-space: nowrap !important; }
+.text-nowrap { white-space: nowrap !important; }
 
 .text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-
-.text-left { text-align: left !important; }
-
-.text-center { text-align: center !important; }
-
-.text-right { text-align: right !important; }
 
 @media (min-width: 576px) { .text-sm-left { text-align: left !important; }
   .text-sm-right { text-align: right !important; }

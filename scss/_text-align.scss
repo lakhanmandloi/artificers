@@ -1,9 +1,5 @@
-.text-justify{@include text-align(justify !important);}
-.text-nwrap{@include text-wrap(nowrap !important);}
+.text-nowrap{@include text-wrap(nowrap !important);}
 .text-truncate{@include text-truncate(hidden,ellipsis,nowrap);}
-.text-left{@include text-align(left !important);}
-.text-center{@include text-align(center !important);}
-.text-right{@include text-align(right !important);}
 @media (min-width: 576px){
 .text-sm-left{@include text-align(left !important);}
 .text-sm-right{@include text-align(right !important);}
