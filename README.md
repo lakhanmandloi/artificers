@@ -29,4 +29,4 @@ Common Reusable CSS Library for all products, Apps, Service Projects.
 ### Command to generate file
 
 * `sass --watch scss/artificier.scss:dist/css/artificier.min.css --style compressed`
-* `sass --watch scss/artificier.scss:dist/css/artificier.css`
+* `sass --watch scss/artificier.scss:dist/css/artificier.css --style compact`
